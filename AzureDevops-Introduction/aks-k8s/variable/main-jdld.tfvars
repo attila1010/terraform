@@ -11,7 +11,7 @@ rg_infr_name = "infr-jdld-noprd-rg1"
 ###
 
 log_analytics_workspace = {
-  name = "demojdldsdbxlogmon1" #The log analytics workspace name must be unique
+  name = "demoaxp10sdbxlogmon1" #The log analytics workspace name must be unique
   sku  = "PerGB2018"           #Refer to https://azure.microsoft.com/pricing/details/monitor/ for log analytics pricing 
 
   solutions = [{
@@ -22,7 +22,7 @@ log_analytics_workspace = {
 }
 
 key_vault = {
-  name = "demojdldsdbxkeyv2" #The kay vault name must be unique
+  name = "atulkv-autot8" #The kay vault name must be unique
   sku  = "standard"
 }
 
@@ -30,6 +30,6 @@ key_vault = {
 # AKS
 ###
 kubernetes_cluster = {
-  name       = "aks-demo-jdld"
-  dns_prefix = "aksdemojdld" #Please see https://aka.ms/aks-naming-rules
+  name       = "aks-demo-axp10"
+  dns_prefix = "aksdemoaxp10" #Please see https://aka.ms/aks-naming-rules
 }
